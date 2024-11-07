@@ -13,7 +13,7 @@ Goals for this assignment:
 ## Time taken to complete this project:
 
 ```
-# replace me!
+# 3-4 days give or take
 ```
 
 
