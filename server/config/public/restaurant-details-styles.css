@@ -1,0 +1,42 @@
+.restaurant-details {
+    margin: 30px 50px 30px 30px;
+    display: flex;
+}
+
+.restaurant-details-img { 
+    width: 300px;
+    margin-right: 30px;
+}
+/* Reviews Container */
+.reviews-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Space between each review */
+    padding: 20px;
+    background-color: #f9f9f9; /* Light background */
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Individual Review Card */
+.review-card {
+    padding: 15px;
+    border: 1px solid #ddd; /* Light border for separation */
+    border-radius: 8px;
+    background-color: #fff; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Rating Style */
+.review-rating {
+    font-weight: bold;
+    color: #ffa500; /* Gold color for stars */
+    margin-bottom: 8px;
+}
+
+/* Review Content */
+.review-content {
+    font-size: 1rem;
+    color: #333; /* Dark gray text */
+    line-height: 1.5;
+}

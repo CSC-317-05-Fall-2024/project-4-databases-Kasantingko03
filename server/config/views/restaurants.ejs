@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Restaurants</title>
+    <link rel="website icon" type="png" href="Images/location_icon.png">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+
+    <div id="restaurantsPage" class="restaurants-container">
+      <% restaurants.forEach(restaurant => { %>
+        <div class="restaurant-card" data-id="<%= restaurant.id %>">
+          <img src="<%= restaurant.photo %>" alt="<%= restaurant.name %>">
+          <h3><%= restaurant.name %></h3>
+          <p><%= restaurant.address %></p>
+          <p><%= restaurant.phone %></p>
+          <button class="delete-btn">X</button>
+        </div>
+      <% }) %>
+    </div>    
+    
+
+    <footer></footer>
+    <script src="/scripts/header.js"></script>
+    <script src="/scripts/restaurantCards.js"></script>
+  </body>
+</html>

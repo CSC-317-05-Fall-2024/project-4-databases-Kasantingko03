@@ -1,0 +1,219 @@
+/* Add your css here */
+/*General Styles */
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+.Japan-image{
+  display: flex;
+  display: block;
+  width: 100%;
+  height: 200px;
+}
+
+.Header-Title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #BC002D;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-bottom: 5px;
+}
+
+.header {
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+.HomePageImage{
+  width: 350px;
+  height: 190px;
+  padding-top: 25px;
+  }
+
+.navbar {
+  background-color: #BC002D; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 10px 0;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.Home-Button, .Attractions-Button, .Restaurants-Button, .newRestaurantButton {
+  text-decoration: underline;
+  color: white;
+  font-size: 14px;
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+.Homepage,
+.AboutHomePage{
+  display: flex;
+  justify-content: center;
+}
+.homePageParagraph{
+  color: #BC002D;
+  text-align: center;
+  width: 700px;
+  font-size: 16px;
+}
+
+/* Attractions Section */
+.attractions-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.attraction-text {
+  margin-left: 20px;
+  padding: 0;
+}
+
+.attraction-text h1 {
+  color: #BC002D;
+}
+
+.attraction-text p {
+  font-size: 16px;
+  color: #333;
+  max-width: 540px;
+  height: 120px;
+}
+
+.attraction {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 40px;
+  max-width: 100%;
+}
+.attraction-image {
+  width: 250px;
+  height: 200px;
+}
+.attraction:hover {
+  transform: translateY(-5px); /* Move the card slightly up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+
+.contact {
+  color: white;
+  font-size: 13px;
+  margin-right: 5x;
+}
+
+/* Restaurants Section */
+.restaurants-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:center;
+  max-width: 1200px;
+  margin-left: 110px;
+  border-color: black;
+}
+.restaurant-card img {
+  width: 170px; 
+  height: 170px; 
+  object-fit: cover; 
+}
+
+.restaurant-card {
+  width: 150px; /* limit card width */
+  padding: 10px;
+  padding-top: 0px;
+  margin: 75px;
+  margin-bottom: 40px;
+  margin-top: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style:solid;
+  border-width: 1px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: rgb(255, 204, 205)
+}
+
+.restaurant-card h3 {
+  font-size: 16px; 
+  margin: 10px 0;
+  color: #BC002D;
+}
+
+.restaurant-card p {
+  font-size: 14px; 
+  margin: 5px 0;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px); /* Move the card slightly up on hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+  cursor: pointer;
+}
+
+/* New Restaurant */
+.NewRestaurantNames{
+  text-align: center;
+  font-size: 20px;
+  margin-bottom: 1px;
+}
+.NewRestaurant,
+.NewRestaurantInputs{
+  text-align: center;
+}
+.NewRestaurantInputs{
+  width: 400px;
+  border-width: 1px;
+  border-style:solid;
+  color: gray;
+  padding: 5px 5px;
+  border-radius: 1.5px;
+}
+.submitButton{
+  padding: 4px 8px;
+  background-color: rgb(233, 230, 230);
+  border-style:solid;
+  border-width: 1px;
+  border-color: gray;
+  cursor: pointer;
+  border-radius: 2px;
+  font-size: 15px;
+}
+.delete-btn{
+  background-color: white;
+  color: #BC002D;
+  border-style: solid;
+  border-style: none;
+}
+.delete-btn:hover{
+  opacity: 0.7;
+  background-color: red;
+}
+.delete-btn:active{
+  opacity: 0.4;
+}
+
+/* Footer */
+.footer {
+  background-color: #BC002D;
+  height: 25px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+

@@ -1,0 +1,16 @@
+{
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.8",
+    "express": "^4.21.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  },
+  "scripts": {
+    "seed-db": "node server/config/seed-db.js",
+    "start": "node server/config/server.js"
+  }
+}
